@@ -32,6 +32,7 @@ class PlaySoundsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        aspectFit()
         setupAudio()
         // Do any additional setup after loading the view.
     }
